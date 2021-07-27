@@ -27,14 +27,18 @@ widgets: [
                 },
                 {
                     text: "Mozilla JS Guide",
-                    url: "https://developer.mozilla.org/en-US/docs/Web/Javascript/Guide"
-                }
-            ]
-
-        }
-    },
-],
-
-};
-
-export default config;
+                    url: "https://developer.mozilla.org/en-US/docs/Web/Javascript/Guide",
+                    id: 2,
+                },
+                {
+                  text: "Frontend Masters",
+                  url: "https://frontendmasters.com",
+                  id: 3,
+                },
+              ],
+            },
+          },
+        ],
+      };
+      
+      export default config;
